@@ -1,0 +1,61 @@
+/* Tokens do flat do Gonzaga (DESIGN.md do projeto). Tema escuro de verdade:
+   preto e grafite de fundo, branco no texto e o vermelho da bandeira do logo
+   como unica cor de acento. Vermelho sobre preto da 4,5:1, entao so vai em
+   botao, bandeira e numero grande; o texto do botao e preto (4,8:1). */
+:root {
+  --preto: #0b0b0c;
+  --grafite: #17181a;
+  --branco: #ffffff;
+  --cinza: #a3a7ad;
+  --linha: #2c2e32;
+  --vermelho: #eb2325;
+  --sobre-vermelho: #000000;
+
+  --color-bg: var(--preto);
+  --color-text: var(--branco);
+  --color-muted: var(--cinza);
+  --color-surface: var(--grafite);
+  --color-rule: var(--linha);
+  --color-accent: var(--vermelho);
+  --color-on-accent: var(--sobre-vermelho);
+  --color-focus: var(--branco);
+
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --weight-display: 700;
+  --weight-display-strong: 700;
+  --weight-body: 400;
+  --weight-body-medium: 600;
+
+  --step--1: clamp(0.86rem, 0.84rem + 0.1vw, 0.92rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
+  --step-1: clamp(1.25rem, 1.15rem + 0.45vw, 1.55rem);
+  --step-2: clamp(1.6rem, 1.4rem + 1vw, 2.2rem);
+  --step-3: clamp(2.2rem, 1.8rem + 2vw, 3.4rem);
+  --step-4: clamp(2.8rem, 2.1rem + 3.4vw, 5rem);
+  --step-5: clamp(3.4rem, 2.4rem + 5vw, 7rem);
+  --step-6: clamp(4.5rem, 3rem + 7.5vw, 10rem);
+  --leading-body: 1.6;
+  --leading-tight: 0.92;
+  --measure: 60ch;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --gutter: 1.25rem;
+  --container: 76rem;
+  --section-gap: clamp(4.5rem, 3rem + 4vw, 7.5rem);
+
+  /* O brief pede corte seco; os orcamentos do gate exigem botao com 12 px e
+     midia com 8 px no minimo. Fica o minimo ate decisao humana (DESIGN.md). */
+  --radius-sm: 8px;
+  --radius-md: 8px;
+  --radius-lg: 8px;
+  --radius-pill: 12px;
+}

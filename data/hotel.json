@@ -1,0 +1,672 @@
+{
+ "nome": "Sua Marca",
+ "cidade": "Santos",
+ "tipos": {
+  "studio": {
+   "nome": "Studio",
+   "base": 260,
+   "pagina": "studio.html",
+   "hosp": 2,
+   "mar": false
+  },
+  "umquarto": {
+   "nome": "Flat 1 Quarto",
+   "base": 320,
+   "pagina": "flat-1-quarto.html",
+   "hosp": 3,
+   "mar": false
+  },
+  "vista": {
+   "nome": "Flat Vista Mar",
+   "base": 390,
+   "pagina": "flat-vista-mar.html",
+   "hosp": 3,
+   "mar": true
+  },
+  "familia": {
+   "nome": "Flat Família 2 Quartos",
+   "base": 450,
+   "pagina": "flat-familia.html",
+   "hosp": 5,
+   "mar": false
+  }
+ },
+ "andares": [
+  {
+   "numero": 1,
+   "quartos": [
+    {
+     "numero": 101,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 0,
+     "precoBase": 320,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 102,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 260,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 103,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 260,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 104,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 260,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 105,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 4,
+     "precoBase": 320,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 106,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 450,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "quartos": [
+    {
+     "numero": 201,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 0,
+     "precoBase": 324,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 202,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 264,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 203,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 264,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 204,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 264,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 205,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 4,
+     "precoBase": 324,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 206,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 454,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "quartos": [
+    {
+     "numero": 301,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 0,
+     "precoBase": 328,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 302,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 268,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 303,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 268,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 304,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 268,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 305,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 4,
+     "precoBase": 328,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 306,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 458,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "quartos": [
+    {
+     "numero": 401,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 0,
+     "precoBase": 332,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 402,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 272,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 403,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 272,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 404,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 272,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 405,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 4,
+     "precoBase": 332,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 406,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 462,
+     "vista": "cidade",
+     "status": "indisponivel"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "quartos": [
+    {
+     "numero": 501,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 0,
+     "precoBase": 336,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 502,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 276,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 503,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 276,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 504,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 276,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 505,
+     "tipo": "umquarto",
+     "posicaoNaFachada": 4,
+     "precoBase": 336,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 506,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 466,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "quartos": [
+    {
+     "numero": 601,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 410,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 602,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 280,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 603,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 280,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 604,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 280,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 605,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 410,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 606,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 470,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "quartos": [
+    {
+     "numero": 701,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 414,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 702,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 284,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 703,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 284,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 704,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 284,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 705,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 414,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 706,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 474,
+     "vista": "cidade",
+     "status": "indisponivel"
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "quartos": [
+    {
+     "numero": 801,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 418,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 802,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 288,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 803,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 288,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 804,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 288,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 805,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 418,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 806,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 478,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "quartos": [
+    {
+     "numero": 901,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 422,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 902,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 292,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 903,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 292,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 904,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 292,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 905,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 422,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 906,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 482,
+     "vista": "cidade",
+     "status": "indisponivel"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "quartos": [
+    {
+     "numero": 1001,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 426,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1002,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 296,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1003,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 296,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 1004,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 296,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1005,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 426,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1006,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 486,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "quartos": [
+    {
+     "numero": 1101,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 430,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1102,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 300,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 1103,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 300,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1104,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 300,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 1105,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 430,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1106,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 490,
+     "vista": "cidade",
+     "status": "indisponivel"
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "quartos": [
+    {
+     "numero": 1201,
+     "tipo": "vista",
+     "posicaoNaFachada": 0,
+     "precoBase": 434,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 1202,
+     "tipo": "studio",
+     "posicaoNaFachada": 1,
+     "precoBase": 304,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1203,
+     "tipo": "studio",
+     "posicaoNaFachada": 2,
+     "precoBase": 304,
+     "vista": "cidade",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 1204,
+     "tipo": "studio",
+     "posicaoNaFachada": 3,
+     "precoBase": 304,
+     "vista": "cidade",
+     "status": "disponivel"
+    },
+    {
+     "numero": 1205,
+     "tipo": "vista",
+     "posicaoNaFachada": 4,
+     "precoBase": 434,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 1206,
+     "tipo": "familia",
+     "posicaoNaFachada": 5,
+     "precoBase": 494,
+     "vista": "cidade",
+     "status": "disponivel"
+    }
+   ]
+  }
+ ]
+}

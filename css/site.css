@@ -95,6 +95,9 @@ a { text-decoration-color: var(--vermelho); text-decoration-thickness: 2px; }
 .reserva .field { min-width: 0; }
 .reserva .field label { font-size: var(--step--1); letter-spacing: 0.1em; text-transform: uppercase; color: var(--cinza); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .reserva .field input, .reserva .field select { min-width: 0; height: 3.25rem; padding-block: 0; line-height: 1.2; }
+/* iOS: o campo de data nativo tem largura propria e ignora width:100%; sem a aparencia nativa ele obedece ao grid. */
+.field input[type="date"] { -webkit-appearance: none; appearance: none; display: block; width: 100%; text-align: left; }
+.field input[type="date"]::-webkit-date-and-time-value { text-align: left; }
 .reserva__noites { grid-column: 1 / -1; min-height: 1.6em; font-size: var(--step--1); color: var(--cinza); }
 @media (min-width: 40em) { .reserva__form { grid-template-columns: repeat(2, minmax(0, 1fr)); } .reserva__titulo { grid-column: 1 / -1; } }
 @media (min-width: 75em) { .reserva__form { grid-template-columns: auto minmax(0, 1.2fr) minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1.3fr) auto; } .reserva__titulo { grid-column: auto; align-self: center; font-size: var(--step-1); white-space: nowrap; } }

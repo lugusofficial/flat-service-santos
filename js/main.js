@@ -31,7 +31,11 @@
     var medir = function () {
       var h = Math.round(header.getBoundingClientRect().height);
       document.documentElement.style.setProperty('--altura-header', h + 'px');
-      limite = cena.getBoundingClientRect().bottom + window.scrollY - h;
+      /* A barra de reserva sobe sobre o fim do heroi: o fundo volta onde ela comeca. */
+      var reserva = cena.nextElementSibling;
+      var fim = cena.getBoundingClientRect().bottom;
+      if (reserva && reserva.classList.contains('reserva')) { fim = Math.min(fim, reserva.getBoundingClientRect().top); }
+      limite = fim + window.scrollY - h;
     };
     var avaliar = function () { header.classList.toggle('is-sobre', window.scrollY < limite - 10); };
     medir(); avaliar();
